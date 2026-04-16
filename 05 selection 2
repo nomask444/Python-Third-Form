@@ -1,0 +1,43 @@
+score = int(input("Enter score: ")) 
+ 
+if score >= 70: 
+    print("A") 
+elif score >= 60: 
+    print("B") 
+else: 
+    print("C") 
+
+ 
+user = input("Username: ") 
+password = input("Password: ") 
+ 
+if user == "admin" and password == password: 
+    print("Access granted") 
+
+ 
+num = int(input("Enter number: ")) 
+ 
+if num >= 1 and num <= 10: 
+    print("In range") 
+
+  
+ 
+ 
+Q4 
+
+A cinema charges different prices depending on the age of the customer. Write a complete Python program that asks the user to enter an age. The program should print "Free" if the age is under 5, "£5" if the age is under 18, and "£10" for everyone else. 
+
+·       Ask the user for their age. 
+
+·       Use if, elif, and else. 
+
+·       Put the conditions in the correct order so younger children are handled first. 
+
+
+
+ 
+ 
+ 
+
+
+ 
