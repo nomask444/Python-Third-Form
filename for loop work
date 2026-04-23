@@ -1,0 +1,49 @@
+for i in range(100): 
+  print("kebab")
+
+#challenge 1 
+
+  
+    
+for i in range(0, 36, 3):
+    print(i)
+
+#challenge 2
+    
+
+name = str(input("Input your name>>>"))
+for i in range(90):
+  print(name)
+
+#challenge 3 
+  
+number = int(input("Enter a times table: "))
+for i in range(1,13):
+ print("showing the",number,"times table")
+print(i ,"x", number, "=", i+number)
+
+
+#challenge 4
+
+for i in range(12, 3, -1):
+  print (i)
+print("!!Blast off!!")
+
+#challenge 5
+
+
+
+rainbow =["red","orange","yellow","green","blue","indigo", "violet"]
+number = 0 
+for i in rainbow:
+  number = number + 1
+  print ("Colour",number*2,"is", i)
+
+#challenge 6
+
+
+number = int(input("enter a number that has a value less then 100>>>  "))
+for i in range(number,  0,  -1):
+     print(i)
+
+     #challenge 7
